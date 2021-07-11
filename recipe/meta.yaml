@@ -1,5 +1,5 @@
 {% set name = "PyDTMC" %}
-{% set version = "6.3.0" %}
+{% set version = "6.4.0" %}
 
 package:
   name: {{ name.lower() }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9092669f71d4157a676f0dbe868d1ba0d8aec8e43404d349202a4a95509380df
+  sha256: 1166d7e857ce0f6860cf3ea2e71f3def259c9439d61ba4fb8a7c51d4802ea545
 
 build:
   number: 0
