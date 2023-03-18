@@ -1,11 +1,11 @@
-About pydtmc
-============
+About pydtmc-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydtmc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/TommasoBelluzzo/PyDTMC
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydtmc-feedstock/blob/main/LICENSE.txt)
 
 Summary: A framework for discrete-time Markov chains analysis.
 
