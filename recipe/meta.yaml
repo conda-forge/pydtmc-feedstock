@@ -6,21 +6,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 62429ecad5d324d25bd650f945ea8f1af1224adec6b0967021072f8b11275434
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - matplotlib-base
     - networkx
     - numpy
@@ -33,6 +33,7 @@ test:
     - tests/
   requires:
     - pytest
+    - python {{ python_min }}
   commands:
     - pytest tests/
 
