@@ -1,5 +1,5 @@
 {% set name = "PyDTMC" %}
-{% set version = "10.1.0" %}
+{% set version = "11.0.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/p/pydtmc/pydtmc-{{ version }}.tar.gz
-  sha256: 44e84e53064b1f57cc0d739727f8fcb7d4ea394f4f8976093e22e80f089fa8e4
+  sha256: 2600b964ab82b3f7f21ed54f56efeb8fac9313c1d660f2d22af5cac2f0a06d21
 
 build:
   number: 0
